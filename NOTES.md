@@ -28,3 +28,12 @@ classmethod
         A classmethod creates an instance of the child class if it was called on that child class.
 
         See: https://www.programiz.com/python-programming/methods/built-in/classmethod
+
+    * getters and setters using @property and @func.setter. Should be clear by now.
+
+    * __getitem__() magic method.
+
+        This allows you to treat your class like a list. 
+        A nice example where you retrieve a company assigned to a Building class' floors can be found here:
+        https://stackoverflow.com/questions/43627405/understanding-getitem-method
+        It's setter equivalent is the __setitem__() magic method.
