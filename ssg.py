@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import typer
 import ssg.parsers
 from ssg.site import Site
